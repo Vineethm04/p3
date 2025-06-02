@@ -1,0 +1,14 @@
+steps for github
+
+git init
+git add .
+git commit -m "Addind files in advance"
+git remote add origin https://github.com/Vineethm04/p3.git
+git push -u origin master
+
+steps of this projct
+
+gradle run
+add the docs folder to the root directory
+push to github
+
