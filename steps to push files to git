@@ -11,4 +11,7 @@ steps of this projct
 gradle run
 add the docs folder to the root directory
 push to github
+if it doesnt work use git pull before pushing
+go to pages and deploy the site
+
 
