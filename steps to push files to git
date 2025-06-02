@@ -13,5 +13,19 @@ add the docs folder to the root directory
 push to github
 if it doesnt work use git pull before pushing
 go to pages and deploy the site
+add dependencies...selenium and testng
+src>test>new package named org.test>right click on org.test and selcet class and named WebpageTest
+run the test(gradle test)
+
+packaging as a jar file
+add id java in build.gradle
+below main.class add:
+jar {
+    mainfest {
+        attributes 'Main-Class': 'org.example.Main'
+    }
+}
+then run gradle jar
+java -jar ./build/libs/p3.jar
 
 
